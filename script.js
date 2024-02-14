@@ -12,7 +12,7 @@ document.querySelector('.check').addEventListener('click', () => {
   const insertedValue = guess.value;
 
   if (!insertedValue) {
-    message.textContent = 'plz insert a number';
+    message.textContent = 'please, insert a number';
     return;
   }
   if (score > 0) {
